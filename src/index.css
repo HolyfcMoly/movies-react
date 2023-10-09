@@ -46,3 +46,12 @@ nav {
 .radio:not(:last-child) {
   margin-right: 1rem;
 }
+
+[type="radio"].with-gap:checked+span:before {
+  border-color: #ce93d8;
+}
+
+[type="radio"].with-gap:checked+span:after {
+  background-color: #8e24aa;
+  border-color: #8e24aa;
+}

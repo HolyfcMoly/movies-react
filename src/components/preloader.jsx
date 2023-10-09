@@ -1,6 +1,6 @@
 function Preloader() {
-    return <div className="progress">
-        <div className="indeterminate"></div>
+    return <div className="progress purple lighten-4">
+        <div className="indeterminate purple"></div>
     </div>
 }
 
